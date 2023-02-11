@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+     background-color:aliceblue;
+     text-align: center;
+
+  
+ }
+h2{
+  font-size: 60px;
+  color:rgb(63, 65, 60) ;
+}
+.line{
+    border-bottom: 7px  dashed black;
+padding-bottom: 320px;
+
+ }
+.panda1{
+    background: url(../image/panda_colour.png);
+    width: 250px;
+    height:330px;
+   
+ animation-name: walk;
+animation-duration: 1s;
+animation-timing-function: steps(12);
+    animation-fill-mode: forwards; 
+   animation-direction:alternate;
+    position: absolute;
+    animation-delay: 1s;
+
+
+}
+.panda1:hover{
+    animation-play-state: paused;
+}
+@keyframes walk{
+
+    0% {background-position:0px;
+        
+         left: 0;
+    }
+    100%{ 
+        background-position: 3000px;
+        left: 1200px;
+    }
+}
+
+.panda2{
+    background: url(../image/panda_colourr.png);
+    width: 250px;
+    height:330px;
+    margin:0 auto;
+animation-name: dina;
+animation-duration: 1s;
+position: absolute;
+animation-delay: 2s;
+animation-timing-function: steps(12);
+animation-direction: reverse;
+animation-fill-mode: forwards;
+left: 1200px;
+
+}
+.panda2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes dina {
+    0%{ 
+        background-position: 0px;
+        left: 0; }
+   
+   100%{ background-position: 3000px;
+    left: 1200px;}
+}
+
+.panda3 {
+    background: url(../image/panda_colour.png);
+    width: 250px;
+    height:330px;
+    position: absolute;
+   margin: 0 auto;
+    animation-name: dina ;
+    animation-duration: 1s ;
+    animation-delay: 3s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(12);
+
+}
+.panda3:hover{
+    animation-play-state: paused;
+}
+.panda4{
+    background: url(../image/panda_colourr.png);
+    width: 250px;
+    height:330px;
+animation-name: dina;
+animation-duration: 1s;
+border-radius: 30px;
+animation-delay: 4s;
+position: absolute;
+animation-timing-function: steps(12);
+animation-direction: reverse;
+animation-fill-mode: forwards;
+left: 1200px;
+
+}
+.panda4:hover{
+    animation-play-state: paused;
+}
+.panda5 {
+    background: url(../image/panda_colour.png);
+    width: 250px;
+    height:330px;
+    border-radius: 30px;
+    position: absolute;
+   
+    animation-name: dina ;
+    animation-duration: 1s ;
+  
+    animation-delay: 5s ;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(12);
+
+}
+.panda5:hover{
+    animation-play-state: paused;
+}
+.panda6{
+    background: url(../image/panda_colourr.png);
+    width: 250px;
+    height:330px;
+animation-name: dina;
+animation-duration: 1s;
+border-radius: 30px;
+animation-delay: 6s;
+position: absolute;
+animation-timing-function: steps(12);
+animation-direction: reverse;
+animation-fill-mode: forwards;
+left: 1200px;
+
+} 
+.panda6:hover{
+    animation-play-state: paused;
+}
